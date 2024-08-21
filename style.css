@@ -1,0 +1,22 @@
+
+body{
+background-image: url(../CreativeDesign/img/pexels-ganajp-4072563.jpg);
+}
+.lists h2,ul,li {
+    display: inline-block;
+    margin: 0px;
+    padding-left: 20px;
+    
+}
+.lists ul,li{
+   display: flex;
+    float: right;
+    list-style: none;
+    text-indent: 30px ;
+    padding-right:  20px;
+}
+.centered{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
