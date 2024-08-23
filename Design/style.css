@@ -1,6 +1,8 @@
 
 body{
-background-image: url(../CreativeDesign/img/pexels-ganajp-4072563.jpg);
+background-image: url(../Design/img/pexels-ganajp-4072563.jpg);
+background-repeat: no-repeat;
+background-size:cover
 }
 .lists h2,ul,li {
     display: inline-block;
@@ -12,11 +14,41 @@ background-image: url(../CreativeDesign/img/pexels-ganajp-4072563.jpg);
    display: flex;
     float: right;
     list-style: none;
-    text-indent: 25px ;
+     /* text-indent: 30px ;  */
     padding-right:  20px;
+    justify-content: space-between;
+ 
+
 }
 .centered{
     text-align: center;
     font-size: 25px;
+    color: rgb(241, 241, 229);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    background-color: rgb(22, 197, 22);
+    color: white;
+    border-style: none ;
+    border-radius: 20px ;
+    padding: 5px 15px 5px 15px;
+    border-color: none;
+    font-size: 15px;
+    /* padding-bottom: 100%; */
+    position:relative;
+    z-index: 1;
+
+}
+button:hover{
+    background-color: rgb(22, 69, 197);
+    color: rgb(240, 166, 166);
+    font-size: 13px;
+
+}
+.heading{
+    margin-top: 120px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
