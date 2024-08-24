@@ -1,0 +1,55 @@
+.myfirstdiv{
+   background-image: url(../ScdAssignment/img/pexels-steve-26756127.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;  
+   padding-left: 40px;
+
+}
+.lists ul,li,h2{
+display: inline-block;
+padding-right: 100px;
+margin: 0px;
+color: white;
+}
+.lists ul,li,button{
+    list-style: none;
+   display: flex;
+   float: inline-end;
+   justify-content: space-between;
+}
+button{
+   background-color: rgba(255, 94, 0, 0.973);
+   border-radius: 5px;
+   border-style: none;
+   color: white;
+   font-size: 12px;
+   padding: 5px 15px 5px 15px;
+}
+.para{
+   font-size: 80px;
+   color: white;
+   padding-top: 100px;
+  
+}
+
+.par2{
+   color: white;
+   font-size: 20px;
+   
+}
+.login button1{
+   background-color: rgba(255, 94, 0, 0.973);
+   border-radius: 5px;
+   border-style: none;
+   color: white;
+   font-size: 12px;
+   padding: 5px 15px 5px 15px; 
+   float: inline-start;
+}
+.login{
+   padding-bottom: 30px;
+}
+.login h3{
+   color: white;
+}
+
