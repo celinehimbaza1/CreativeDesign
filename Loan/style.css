@@ -2,21 +2,27 @@
    background-image: url(../Loan/img/pexels-steve-26756127.jpg);
    background-size: cover;
    background-repeat: no-repeat;  
-   padding-left: 40px;
+   padding-left: 80px;
+
 
 }
-.lists ul,li,h2{
-display: inline-block;
+.lists,ul,li,h2{
+display: flex;
 padding-right: 100px;
-margin: 0px;
 color: white;
+font-family:'Times New Roman', Times, serif;
+margin: 0px;
+list-style: none;
+font-size: 20px;
+
 }
-.lists ul,li,button{
-    list-style: none;
-   display: flex;
-   float: inline-end;
-   justify-content: space-between;
+
+.para,p{
+   color: white;
+   padding-top: 50px;
+   font-size: 50px;
 }
+
 button{
    background-color: rgba(255, 94, 0, 0.973);
    border-radius: 5px;
@@ -25,31 +31,66 @@ button{
    font-size: 12px;
    padding: 5px 15px 5px 15px;
 }
-.para{
-   font-size: 80px;
-   color: white;
-   padding-top: 100px;
-  
-}
 
-.par2{
+
+.par2,p{
+   margin-top: 20px;
    color: white;
-   font-size: 20px;
-   
+   font-size: 30px;    
 }
-.login button1{
+.button{
    background-color: rgba(255, 94, 0, 0.973);
    border-radius: 5px;
    border-style: none;
    color: white;
    font-size: 12px;
-   padding: 5px 15px 5px 15px; 
-   float: inline-start;
+   padding: 5px 15px 5px 15px;
 }
 .login{
    padding-bottom: 30px;
 }
-.login h3{
+.login,h3{
    color: white;
 }
+.login,button,h3{
+   display: inline-block;
+}
+
+.sideinfo,aside,img{
+   width: 150px;
+   height: 130px;
+   float: right;
+   margin-bottom: 180px;
+   padding-right: 20px;
+} 
+
+.mysecondiv{
+   background-image: url(../Loan/img/pexels-karolina-grabowska-4590785.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   
+
+}
+.containt,h1{
+   text-align: center;
+   color: darkgreen;
+   font-size: 40px;
+   margin: 0px;
+   }
+.mydiv,img{
+   width: 200px;
+   height: 150px;
+}
+.icon{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+
+
+
+
 
