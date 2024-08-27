@@ -1,96 +1,126 @@
-.myfirstdiv{
-   background-image: url(../Loan/img/pexels-steve-26756127.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;  
-   padding-left: 80px;
-
-
-}
-.lists,ul,li,h2{
-display: flex;
-padding-right: 100px;
-color: white;
-font-family:'Times New Roman', Times, serif;
-margin: 0px;
-list-style: none;
-font-size: 20px;
-
+.myfirstdiv {
+  background-image: url(../Loan/img/pexels-steve-26756127.jpg);
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 
-.para,p{
-   color: white;
-   padding-top: 50px;
-   font-size: 50px;
+.lists.button,
+ul,
+li,
+h2 {
+  display: inline-block;
+  list-style: none;
+  justify-content: space-between;
+  color: white;
+  margin: 0px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+h2 {
+  padding-left: 50px;
+}
+.lists.button,
+ul,
+li {
+  float: right;
+  display: flex;
+  padding-right: 50px;
 }
 
-button{
-   background-color: rgba(255, 94, 0, 0.973);
-   border-radius: 5px;
-   border-style: none;
-   color: white;
-   font-size: 12px;
-   padding: 5px 15px 5px 15px;
+.thefirstparagraph {
+  color: white;
+  padding-top: 50px;
+  font-size: 30px;
+  padding-left: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+.firstlog {
+  background-color: rgba(255, 94, 0, 0.973);
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-size: 12px;
+  padding: 5px 15px 5px 15px;
+}
 
-.par2,p{
-   margin-top: 20px;
-   color: white;
-   font-size: 30px;    
+.thesecondparagraph {
+  margin-top: 50px;
+  color: white;
+  font-size: 15px;
+  padding-left: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-.button{
-   background-color: rgba(255, 94, 0, 0.973);
-   border-radius: 5px;
-   border-style: none;
-   color: white;
-   font-size: 12px;
-   padding: 5px 15px 5px 15px;
+.secondlog {
+  background-color: rgba(255, 94, 0, 0.973);
+  border-radius: 5px;
+  border-style: none;
+  color: white;
+  font-size: 12px;
+  padding: 5px 15px 5px 15px;
 }
-.login{
-   padding-bottom: 30px;
+
+.logs,
+h3 {
+  padding-left: 50px;
 }
-.login,h3{
-   color: white;
+.secondlog,
+h3 {
+  display: inline-block;
+  color: white;
 }
-.login,button,h3{
+
+.sidebar,
+img {
+  float: right;
+  width: 30px;
+  height: 50px;
+  padding-bottom: 20px;
+}
+
+.mysecondiv {
+  background-image: url(../Loan/img/pexels-karolina-grabowska-4590785.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.containt,
+h1 {
+  text-align: center;
+  color: darkgreen;
+  font-size: 40px;
+  margin: 0px;
+}
+.mydiv,
+img {
+  width: 150px;
+  height: 100px;
+  padding-right: 240px;
+}
+
+.LoanApplication {
+  font-size: 10px;
+  color: darkgreen;
+}
+.info {
+  font-size: 10px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .icon2,fas fa-cloud,Loan Application,info{
    display: inline-block;
 }
 
-.sideinfo,aside,img{
-   width: 150px;
-   height: 130px;
-   float: right;
-   margin-bottom: 180px;
-   padding-right: 20px;
-} 
-
-.mysecondiv{
-   background-image: url(../Loan/img/pexels-karolina-grabowska-4590785.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
-
-   
-
+.icon3,fas fa-cloud,Loan Application,info{
+   display: inline-block;
 }
-.containt,h1{
-   text-align: center;
-   color: darkgreen;
-   font-size: 40px;
-   margin: 0px;
-   }
-.mydiv,img{
-   width: 200px;
-   height: 150px;
-}
-.icon{
-  margin: 0;
-  padding: 0px;
-  box-sizing: border-box;
-  display: flex;
+
+
+.icon1.icon2.icon3{
+display: flex;
 }
 
 
 
-
-
-
+ */
